@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Papillon';
+  src: url('/fonts/Papillon-Regular.otf') format('opentype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Papillon';
+  src: url('/fonts/Papillon-Medium.otf') format('opentype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Papillon';
+  src: url('/fonts/Papillon-Bold.otf') format('opentype');
+  font-weight: bold;
+}
