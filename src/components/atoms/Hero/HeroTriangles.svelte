@@ -7,7 +7,7 @@
     triangles.forEach((triangle, i) => {
       ScrollReveal().reveal(triangle, {
         delay: (Math.random() * 50) + (i * 50),
-        origin: ['top', 'right', 'bottom', 'left'][Math.floor(Math.random() * 4)],
+        origin: 'bottom',
         distance: '200px',
         duration: 1000,
         scale: 0,
