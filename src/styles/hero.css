@@ -160,6 +160,12 @@
   gap: 30px;
 }
 
+@media screen and (min-width: 768px) {
+  .screenshots {
+    max-height: 300px;
+  }
+}
+
 .screenshot {
   width: 369px;
   height: fit-content;
