@@ -2,7 +2,7 @@
   import '../styles/global.css';
 	import Navbar from "../components/Navbar.svelte";
 
-  export const prerender = true;
+  export const ssr = false;
 </script>
 
 <Navbar />
