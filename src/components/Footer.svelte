@@ -18,8 +18,9 @@
         { name: "YouTube", href: "https://youtube.com/#thepapillonapp" },
         { name: "GitHub", href: "https://github.com/PapillonApp" },
         { name: "LinkedIn", href: "https://www.linkedin.com/company/getpapillonapp" },
+        { name: "Discord", href: "https://discord.gg/wVKWBRTbfh" }
       ],
-    }
+    },
   ]
 </script>
 
