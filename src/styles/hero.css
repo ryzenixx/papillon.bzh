@@ -12,6 +12,7 @@
   pointer-events: none;
   user-select: none;
   z-index: -9;
+  image-rendering: -webkit-optimize-contrast;
 }
 
 .triangle-top-left {
@@ -38,25 +39,25 @@
   .triangle-top-left {
     top: -160px;
     margin-right: 220px;
-    transform: scale(0.5);
+    max-height: 260px;
   }
 
   .triangle-top-right {
-    top: -210px;
-    margin-left: 200px;
-    transform: scale(0.5);
+    top: -170px;
+    margin-left: 300px;
+    max-height: 300px;
   }
 
   .triangle-bottom-left {
-    top: 160px;
+    top: 290px;
     margin-right: 380px;
-    transform: scale(0.5);
+    max-height: 400px;
   }
 
   .triangle-bottom-right {
-    top: 290px;
+    top: 340px;
     margin-left: 360px;
-    transform: scale(0.5);
+    max-height: 300px;
   }
 }
 
