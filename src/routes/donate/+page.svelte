@@ -25,6 +25,12 @@ import Footer from "../../components/Footer.svelte";
   });
 </script>
 
+<svelte:head>
+  <title>Papillon — Soutenez le projet</title>
+  <meta property="og:title" content="Soutenez le projet Papillon">
+  <meta property="og:description" content="Soutenez le développement d'un projet libre et open-source, développé par des étudiants pour des étudiants.">
+</svelte:head>
+
 <div class="page">
   <div class="section main-donate">
     <SectionTitle
