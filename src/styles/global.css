@@ -68,6 +68,7 @@ p, a {
 body {
   width: 100vw;
   background-color: var(--color-background);
+  overflox-x: hidden;
 }
 
 .fullpage {
