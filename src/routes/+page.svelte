@@ -7,6 +7,13 @@
 	import Footer from "../components/Footer.svelte";
 </script>
 
+<svelte:head>
+  <title>Papillon — Votre allié pour votre vie scolaire</title>
+  <meta property="og:title" content="Votre allié pour votre vie scolaire">
+	<meta property="og:description"
+			content="Papillon est ton compagnon libre et open-source, créé par des élèves comme toi. Utilise-le pour tous tes services de vie scolaire, et simplifie ton année !">
+</svelte:head>
+
 <Hero />
 <FeaturesSection />
 <IconsSection />
