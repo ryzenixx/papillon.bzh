@@ -1,0 +1,37 @@
+.main-donate {
+  background: #d6a00b22;
+}
+
+.main-donate .icon-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .main-donate .icon-title {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.main-donate .icon-title h3 {
+  color: #d6a00b;
+}
+
+.reason {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  max-width: 700px;
+}
+
+.res-text {
+  display: flex;
+  gap: 16px;
+  text-align: center;
+  color: rgba(var(--color-text-primary-rgb), 0.6);
+}

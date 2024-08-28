@@ -67,7 +67,7 @@
 
 <div class="anchor" id="features"></div>
 
-<div class="section-features">
+<div class="section section-features">
   <SectionTitle
     title="Plus qu'une simple application de vie scolaire"
     description="Découvrez les fonctionnalités qui font de Papillon une application unique."

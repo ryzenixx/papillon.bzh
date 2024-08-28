@@ -12,7 +12,7 @@ html {
   scroll-behavior: smooth;
 }
 
-p {
+p, a {
   font-weight: 500;
 }
 
@@ -61,6 +61,10 @@ p {
   padding: 0 20px;
 }
 
+.page {
+  min-height: calc(100svh - 60px);
+}
+
 body {
   width: 100vw;
   background-color: var(--color-background);
@@ -102,4 +106,22 @@ body {
 .anchor {
   position: relative;
   top: -60px;
+}
+
+.section {
+  width: 100%;
+  padding: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 50px;
+}
+
+@media (max-width: 600px) {
+  .section {
+    padding: 50px 20px;
+  }
 }

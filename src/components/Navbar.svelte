@@ -8,8 +8,7 @@
 
   const links = [
     { name: 'Découvrir Papillon', href: '/' },
-    { name: 'Contribuer', href: '/contribute' },
-    { name: 'Notre histoire', href: '/about' },
+    { name: 'Soutenir le projet', href: '/donate', donate: true },
   ];
 
   let mobileMenuOpen = false;
@@ -17,12 +16,12 @@
 
 <div class="support">
   <div class="support-over">
-    <div class="width">
+    <a class="width literate-link" href="https://literate.ink" target="_blank">
       <p>Un projet soutenu par</p>
 
       <img src="/assets/literate_logo_full.svg" alt="Papillon" class="literate-image light-mode" />
       <img src="/assets/literate_logo_full_dark.svg" alt="Papillon" class="literate-image dark-mode" />
-    </div>
+    </a>
   </div>
 </div>
 
@@ -34,10 +33,10 @@
     </a>
 
     <ul class="desktop-only">
-      {#each links as { name, href }}
+      {#each links as { name, href, donate }}
         <li>
           <a
-            class:active={href === $page.url.pathname}
+            class={(href === $page.url.pathname ? 'active' : '') + (donate ? ' donate' : '')}
             href={href}
           >
             {name}
@@ -52,9 +51,7 @@
         value="Télécharger"
         icon={Download}
         variant="light"
-        onClick={() => {
-          console.log('clicked download');
-        }}
+        href="/download"
       />
     </div>
 

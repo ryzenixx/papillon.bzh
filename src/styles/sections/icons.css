@@ -1,15 +1,3 @@
-.section-icons {
-  width: 100%;
-  padding: 50px;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  gap: 50px;
-}
-
 .icon-elements {
   display: grid;
   width: 100%;

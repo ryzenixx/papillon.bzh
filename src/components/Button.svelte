@@ -8,18 +8,21 @@
   export let variant = "default";
 
   export let href = "#";
+
+  export let color = "#29947a";
 </script>
 
 <a
   href={href}
   class="button {variant === "primary" ? 'primary' : ''} {variant === "light" ? 'light' : ''}"
   on:click={onClick}
+  style="--btn-color: {color}; --btn-color-light: {color}22;"
 >
   {#if icon}
     <svelte:component this={icon} class="icon"
     color="{
       variant === "primary" ? '#ffffff' :
-      variant === 'light' ?'var(--color-primary)' :
+      variant === 'light' ? color :
         'rgba(var(--color-text-rgb), 0.5)'
     }"
     size="20" strokeWidth="2.5" />
@@ -61,13 +64,12 @@
   }
 
   .button.primary {
-    background-color: var(--color-primary);
-    border-color: var(--color-primary);
+    background-color: var(--btn-color);
+    border-color: var(--btn-color);
   }
 
   .button.primary:hover {
-    background-color: var(--color-primary-dark);
-    border-color: var(--color-primary-dark);
+    filter: brightness(1.1);
   }
 
   .button.primary p {
@@ -75,16 +77,15 @@
   }
 
   .button.light {
-    background-color: rgba(var(--color-primary-rgb), 0.16);
+    background-color: var(--btn-color-light);
     border-color: rgba(var(--color-primary-rgb), 0);
   }
 
   .button.light:hover {
-    background-color: rgba(var(--color-primary-rgb), 0.3);
-    border-color: rgba(var(--color-primary-rgb), 0);
+    filter: brightness(0.6) saturate(1.2);
   }
 
   .button.light p {
-    color: var(--color-primary);
+    color: var(--btn-color);
   }
 </style>

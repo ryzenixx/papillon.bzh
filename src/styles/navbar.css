@@ -30,6 +30,10 @@ nav .width {
   -webkit-tap-highlight-color: transparent;
 }
 
+.logo:hover {
+  filter: brightness(0.7);
+}
+
 .logo-image {
   height: 22px;
 }
@@ -66,6 +70,21 @@ nav ul li a.active {
   font-weight: 700;
   color: var(--color-primary);
   border-bottom-color: var(--color-primary);
+}
+
+nav ul li a.donate {
+  --donate-color: #d6a00b;
+  color: var(--donate-color);
+}
+
+nav ul li a.donate:hover {
+  color: var(--donate-color);
+  border-bottom-color: var(--donate-color);
+}
+
+nav ul li a.donate.active {
+  color: var(--donate-color);
+  border-bottom-color: var(--donate-color);
 }
 
 nav ul li:last-child {
@@ -198,4 +217,8 @@ nav ul li:last-child {
   opacity: 0.5;
   margin-left: 9px;
   margin-top: -1px;
+}
+
+.literate-link {
+  text-decoration: none !important;
 }

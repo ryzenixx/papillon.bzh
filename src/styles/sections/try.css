@@ -1,0 +1,73 @@
+.section-try {
+  background-color: rgba(var(--color-primary-rgb), 0.1);
+}
+
+.section-try .width {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.section-try .title {
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.section-try .title h2 {
+  font-size: 2rem;
+  line-height: 1;
+  letter-spacing: -1px;
+  color: var(--color-text-primary);
+}
+
+.section-try .title p {
+  font-size: 1rem;
+  color: rgba(var(--color-text-primary-rgb), 0.6);
+  font-weight: 500;
+}
+
+.section-try .title a {
+  color: var(--color-primary);
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+  width: fit-content;
+}
+
+.section-try .title a:hover {
+  text-decoration: underline;
+}
+
+.section-try .illustration {
+  flex: 2;
+  max-width: 400px;
+}
+
+@media screen and (max-width: 768px) {
+  .section-try {
+    padding: 32px 16px;
+  }
+
+  .section-try .width {
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+  }
+
+  .section-try .title {
+    text-align: center;
+    align-items: center;
+  }
+
+  .section-try .title h2 {
+    font-size: 1.5rem;
+  }
+
+  .section-try .illustration {
+    max-width: 300px;
+  }
+}

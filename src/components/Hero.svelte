@@ -96,6 +96,7 @@
         value="Télécharger"
         icon={Download}
         variant="light"
+        href="/download"
       />
 
       <Button

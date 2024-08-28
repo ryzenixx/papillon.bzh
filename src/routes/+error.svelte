@@ -1,6 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 	import { onMount } from 'svelte';
+	import Footer from '../components/Footer.svelte';
 
 	const headlineAnimOptions = {
     origin: 'bottom',
@@ -46,6 +47,8 @@
 		</p>
 	</div>
 </div>
+
+<Footer />
 
 <style scoped>
 	.error {

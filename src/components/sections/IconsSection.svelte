@@ -62,7 +62,7 @@
   });
 </script>
 
-<div class="section-icons">
+<div class="section section-icons">
   <SectionTitle
     title="Une application sur laquelle vous pouvez compter"
     description="Papillon, un allié qui vous accompagne à chaque instant."
