@@ -109,7 +109,7 @@
     </div>
 
     <p class="conditions">
-      En continuant, vous acceptez les <a href="/terms">conditions d'utilisation</a> et la <a href="/privacy">politique de confidentialité</a>.
+      En continuant, vous acceptez les <a href="https://safety.getpapillon.xyz/documents/terms-of-service">conditions d'utilisation</a> et la <a href="https://safety.getpapillon.xyz/documents/privacy-policy">politique de confidentialité</a>.
     </p>
   </div>
 
