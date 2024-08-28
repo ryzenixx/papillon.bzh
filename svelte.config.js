@@ -6,10 +6,13 @@ const config = {
 		adapter: adapter({
 			pages: 'build',
 			assets: 'build',
-			fallback: undefined,
-			precompress: false,
-			strict: true,
-		})
+			fallback: null,
+			precompress: false
+		}),
+		prerender: {
+			default: true,
+		},
+		trailingSlash: 'always',
 	}
 };
 
