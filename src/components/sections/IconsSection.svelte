@@ -55,7 +55,7 @@
         easing: 'ease',
         scale: 0.85,
         opacity: 0,
-        reset: true,
+        reset: false,
         delay: (i * 70)
       });
     });

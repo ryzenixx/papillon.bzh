@@ -19,12 +19,14 @@
 
     ScrollReveal().reveal('.st-title', {
       ...headlineAnimOptions,
-      delay: 200
+      delay: 200,
+      reset: false
     });
 
     ScrollReveal().reveal('.st-desc', {
       ...headlineAnimOptions,
-      delay: 300
+      delay: 300,
+      reset: false
     });
   });
 </script>

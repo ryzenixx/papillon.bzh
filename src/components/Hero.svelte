@@ -13,7 +13,7 @@
     easing: 'ease',
     scale: 1,
     opacity: 0,
-    reset: true,
+    reset: false,
   };
 
   // on mount

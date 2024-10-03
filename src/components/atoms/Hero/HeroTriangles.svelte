@@ -3,16 +3,6 @@
   // on mount
   onMount(() => {
     const triangles = document.querySelectorAll('.triangle');
-
-    triangles.forEach((triangle, i) => {
-      ScrollReveal().reveal(triangle, {
-        delay: (Math.random() * 50) + (i * 50),
-        origin: 'bottom',
-        distance: '200px',
-        duration: 1000,
-        scale: 0,
-      });
-    });
   });
 </script>
 
