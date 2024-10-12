@@ -75,7 +75,7 @@
   <HeroTriangles />
 
   <div class="content">
-    <a class="britanny-chip" href="https://github.com/PapillonApp/Papillon" target="_blank">
+    <a class="britanny-chip" href="/kenavo">
       <img src="/assets/britanny_flag.svg" alt="Britanny flag" />
 
       <p>
@@ -95,7 +95,7 @@
         class="button button-hero"
         value="Télécharger"
         icon={Download}
-        variant="light"
+        variant="primary"
         href="/download"
       />
 
@@ -103,7 +103,7 @@
         class="button button-hero"
         value="En savoir plus"
         icon={ArrowDown}
-        variant="default"
+        variant="inverted"
         href="#features"
       />
     </div>

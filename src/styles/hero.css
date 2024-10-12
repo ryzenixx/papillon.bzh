@@ -5,13 +5,14 @@
   align-items: center;
   position: relative;
   overflow: hidden;
+  background-color: #4A21C2;
 }
 
 .triangle {
   position: absolute;
   pointer-events: none;
   user-select: none;
-  z-index: -9;
+  z-index: 9;
   image-rendering: -webkit-optimize-contrast;
 }
 
@@ -75,12 +76,12 @@
   font-size: 2.5rem;
   line-height: 1;
   letter-spacing: -1px;
-  color: var(--color-text-primary);
+  color: #ffffff;
 }
 
 .content p {
   font-size: 1rem;
-  color: rgba(var(--color-text-primary-rgb), 0.6);
+  color: #ffffff88;
   font-weight: 500;
 }
 
@@ -91,13 +92,13 @@
 
 .content .conditions {
   font-size: 0.8rem;
-  color: rgba(var(--color-text-primary-rgb), 0.4);
+  color: #ffffff55;
   font-weight: 500;
   max-width: 400px;
 }
 
 .content .conditions a {
-  color: rgba(var(--color-text-primary-rgb), 0.6);
+  color: #ffffff88;
   text-decoration: none;
   font-weight: 700;
 }
@@ -112,14 +113,14 @@
   align-items: center;
   padding: 8px 12px;
   gap: 8px;
-  background: rgba(var(--color-text-primary-rgb), 0.1);
+  background: #ffffff22;
   border-radius: 300px;
   text-decoration: none;
   transition: background 0.2s;
 }
 
 .britanny-chip:hover {
-  background: rgba(var(--color-text-primary-rgb), 0.2);
+  background: #ffffff44;
 }
 
 .britanny-chip img {
@@ -128,7 +129,7 @@
 
 .britanny-chip p {
   font-size: 1rem;
-  color: rgba(var(--color-text-primary-rgb), 0.8);
+  color: #ffffff;
   font-weight: 500;
 }
 
@@ -159,6 +160,7 @@
   display: flex;
   align-items: flex-end;
   gap: 30px;
+  z-index: 99;
 }
 
 @media screen and (min-width: 768px) {

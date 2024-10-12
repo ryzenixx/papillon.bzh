@@ -45,6 +45,7 @@
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
+  max-width: 900px;
 }
 
 .section-title h2 {

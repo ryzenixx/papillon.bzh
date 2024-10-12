@@ -15,7 +15,7 @@
       links: [
         { name: "X (ex. Twitter)", href: "https://x.com/thepapillonapp" },
         { name: "Instagram", href: "https://instagram.com/thepapillonapp" },
-        { name: "YouTube", href: "https://youtube.com/#thepapillonapp" },
+        { name: "YouTube", href: "https://youtube.com/@thepapillonapp" },
         { name: "GitHub", href: "https://github.com/PapillonApp" },
         { name: "LinkedIn", href: "https://www.linkedin.com/company/getpapillonapp" },
         { name: "Discord", href: "https://discord.gg/wVKWBRTbfh" }

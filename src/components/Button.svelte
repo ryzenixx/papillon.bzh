@@ -14,7 +14,7 @@
 
 <a
   href={href}
-  class="button {variant === "primary" ? 'primary' : ''} {variant === "light" ? 'light' : ''}"
+  class="button {variant}"
   on:click={onClick}
   style="--btn-color: {color}; --btn-color-light: {color}22;"
 >
@@ -66,6 +66,8 @@
   .button.primary {
     background-color: var(--btn-color);
     border-color: var(--btn-color);
+
+    box-shadow: 0 1px 3px #00000030;
   }
 
   .button.primary:hover {
@@ -87,5 +89,10 @@
 
   .button.light p {
     color: var(--btn-color);
+  }
+
+  .inverted {
+    --color-text: #ffffff !important;
+    --color-text-rgb: 255, 255, 255 !important;
   }
 </style>
