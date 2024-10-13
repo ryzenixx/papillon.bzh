@@ -8,7 +8,7 @@
   <div class="width">
     <div class="title">
       <h2>
-        Essayez Papillon dès maintenant, vous allez plus pouvoir vous en passer !
+        Essayez Papillon dès maintenant, vous n'allez plus pouvoir vous en passer !
       </h2>
       <p>
         Déja adopté et utilisé par des milliers de lycéens, de collégiens et d'étudiants, Papillon est le compagnon idéal pour votre vie scolaire qui vous accompagnera tout au long de votre année.
