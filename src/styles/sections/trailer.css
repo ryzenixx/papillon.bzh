@@ -1,16 +1,20 @@
+.section-trailer {
+	border-top: 1px solid rgba(var(--color-text-rgb), 0.1);
+}
+
 .video-container * {
-  --color-text: #fff;
+	--color-text: #fff;
 }
 
 .plyr__menu__container * {
-  --color-text: #000;
+	--color-text: #000;
 }
 
 .video-container {
-  overflow: hidden;
-  border: 1px solid rgba(var(--color-text-rgb), 0.2);
-  border-radius: 8px;
-  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.22);
-  aspect-ratio: 16 / 9;
-  max-width: 900px;
+	overflow: hidden;
+	border: 1px solid rgba(var(--color-text-rgb), 0.2);
+	border-radius: 8px;
+	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.22);
+	aspect-ratio: 16 / 9;
+	max-width: 900px;
 }
