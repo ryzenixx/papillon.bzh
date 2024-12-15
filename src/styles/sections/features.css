@@ -1,101 +1,104 @@
 .section-features {
-  --tile-height: 280px;
-  --tile-gap: 16px;
+	border-top: 1px solid rgba(var(--color-text-rgb), 0.1);
+	--tile-height: 280px;
+	--tile-gap: 16px;
 }
 
 .feature-grid {
-  display: inline-grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: var(--tile-gap);
+	display: inline-grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	gap: var(--tile-gap);
 }
 
 .tile {
-  width: var(--tile-height);
-  height: var(--tile-height);
-  border-radius: 10px;
-  position: relative;
-  overflow: hidden;
-  border: 1px solid rgba(var(--color-text-rgb), 0.1);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	width: var(--tile-height);
+	height: var(--tile-height);
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid rgba(var(--color-text-rgb), 0.1);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
-  transition: box-shadow 0.2s, border 0.2s;
+	transition:
+		box-shadow 0.2s,
+		border 0.2s;
 }
 
 .tile:hover {
-  border: 1px solid rgba(var(--color-text-rgb), 0.2);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	border: 1px solid rgba(var(--color-text-rgb), 0.2);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 .tile-large {
-  height: calc(var(--tile-height) * 2 + var(--tile-gap));
-  grid-row: span 2;
+	height: calc(var(--tile-height) * 2 + var(--tile-gap));
+	grid-row: span 2;
 }
 
 .tile-content {
-  position: absolute;
-  bottom: 16px;
-  left: 16px;
-  right: 16px;
+	position: absolute;
+	bottom: 16px;
+	left: 16px;
+	right: 16px;
 
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
 }
 
 .tile-content h2 {
-  font-size: 17px;
-  font-weight: 700;
-  color: var(--color-text);
+	font-size: 17px;
+	font-weight: 700;
+	color: var(--color-text);
 }
 
 .tile-content p {
-  font-size: 15px;
-  color: var(--color-text);
-  opacity: 0.6;
+	font-size: 15px;
+	color: var(--color-text);
+	opacity: 0.6;
 }
 
 .tile-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  pointer-events: none;
-  user-select: none;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	pointer-events: none;
+	user-select: none;
 
-  transition: transform 0.2s;
+	transition: transform 0.2s;
 }
 
 .tile:hover .tile-image {
-  transform: translateY(-4px);
+	transform: translateY(-4px);
 }
 
 @media (max-width: 1000px) {
-  .feature-grid {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-  }
+	.feature-grid {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+	}
 }
 
 @media (max-width: 600px) {
-  .section-features {
-    padding: 50px 20px;
-  }
+	.section-features {
+		padding: 50px 20px;
+	}
 
-  .feature-grid {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-  }
+	.feature-grid {
+		grid-template-columns: 1fr;
+		grid-template-rows: auto;
+	}
 
-  .tile {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 1 / 1;
-    max-width: 400px;
-  }
+	.tile {
+		width: 100%;
+		height: auto;
+		aspect-ratio: 1 / 1;
+		max-width: 400px;
+	}
 
-  .tile-large {
-    height: auto;
-    grid-row: auto;
-    aspect-ratio: 1 / 2;
-  }
+	.tile-large {
+		height: auto;
+		grid-row: auto;
+		aspect-ratio: 1 / 2;
+	}
 }

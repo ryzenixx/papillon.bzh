@@ -54,18 +54,21 @@
 		ScrollReveal().reveal('.screenshot-main', {
 			...headlineAnimOptions,
 			delay: 200,
+			scale: 0.9,
 			distance: '100px'
 		});
 
 		ScrollReveal().reveal('.screenshot-grades', {
 			...headlineAnimOptions,
 			delay: 300,
+			scale: 0.9,
 			distance: '100px'
 		});
 
 		ScrollReveal().reveal('.screenshot-edts', {
 			...headlineAnimOptions,
 			delay: 400,
+			scale: 0.9,
 			distance: '100px'
 		});
 	});
