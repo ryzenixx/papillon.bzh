@@ -79,4 +79,8 @@
 	.section-secure-content {
 		max-width: 90vw;
 	}
+
+	.section-secure__image-container {
+		min-width: 90vw;
+	}
 }
