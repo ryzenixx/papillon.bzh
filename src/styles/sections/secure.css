@@ -77,10 +77,14 @@
 		align-items: center;
 	}
 	.section-secure-content {
-		max-width: 90vw;
+		max-width: 85vw;
 	}
 
 	.section-secure__image-container {
-		min-width: 90vw;
+		max-width: 90vw;
+		height: auto;
+		min-width: auto;
+		aspect-ratio: 1 / 1;
+		margin-bottom: -30px;
 	}
 }
