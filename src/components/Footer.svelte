@@ -9,7 +9,7 @@
 				{ name: 'Blog', href: 'https://blog.papillon.bzh' },
 				{
 					name: 'Confidentialité',
-					href: 'https://safety.getpapillon.xyz/documents/privacy-policy'
+					href: 'https://docs.papillon.bzh/legal/privacy'
 				}
 			]
 		},
