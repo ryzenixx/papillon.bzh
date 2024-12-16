@@ -50,7 +50,7 @@
 		width: 347px;
 		border-radius: 30px;
 		overflow: hidden;
-		overflow: visible;
+		overflow: hidden;
 	}
 
 	@media (max-width: 900px) {
