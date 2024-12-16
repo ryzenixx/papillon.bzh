@@ -20,7 +20,7 @@
 			name: 'updated',
 			image: 'tile_updated',
 			large: false,
-			color: '#00C2FF'
+			color: '#950064'
 		},
 		{
 			title: 'Organisation facile',
@@ -36,7 +36,7 @@
 			name: 'compatible',
 			image: 'tile_compatible',
 			large: false,
-			color: '#950064'
+			color: '#00C2FF'
 		},
 		{
 			title: 'Conçu pour vous',
