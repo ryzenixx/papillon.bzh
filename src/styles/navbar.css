@@ -18,7 +18,7 @@ nav .width {
 	display: flex;
 	height: 100%;
 	align-items: center;
-	gap: 22px;
+	gap: 16px;
 }
 
 .logo {
@@ -57,7 +57,7 @@ nav ul li a {
 	display: flex;
 	height: 100%;
 	align-items: center;
-	padding-top: 3px;
+	padding-top: 4px;
 	padding-left: 16px;
 	padding-right: 16px;
 	border-bottom: 2px solid rgba(0, 0, 0, 0);
