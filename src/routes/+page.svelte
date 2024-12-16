@@ -8,6 +8,7 @@
 	import SecureSection from '../components/sections/SecureSection.svelte';
 	import Button from '../components/Button.svelte';
 	import CompatibilitySection from '../components/sections/CompatibilitySection.svelte';
+	import DemoSection from '../components/sections/DemoSection.svelte';
 </script>
 
 <svelte:head>
@@ -20,8 +21,8 @@
 </svelte:head>
 
 <Hero />
-<CompatibilitySection />
 <FeaturesSection />
+<DemoSection />
 <IconsSection />
 <SecureSection />
 <TrySection />
