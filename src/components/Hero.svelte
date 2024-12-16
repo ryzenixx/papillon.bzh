@@ -9,10 +9,10 @@
 
 	const headlineAnimOptions = {
 		origin: 'bottom',
-		distance: '20px',
+		distance: '60px',
 		duration: 600,
 		easing: 'ease',
-		scale: 1,
+		scale: 0.9,
 		opacity: 0,
 		reset: false
 	};
@@ -33,6 +33,11 @@
 		ScrollReveal().reveal('.subtitle', {
 			...headlineAnimOptions,
 			delay: 100
+		});
+
+		ScrollReveal().reveal('.rating', {
+			...headlineAnimOptions,
+			delay: 150
 		});
 
 		ScrollReveal().reveal('.button-hero', {
@@ -94,6 +99,14 @@
 			Papillon est ton compagnon libre et open-source, créé par des élèves comme toi. Utilise-le
 			pour tous tes services de vie scolaire, et simplifie ton année !
 		</p>
+
+		<div class="rating">
+			<div class="main-rating">
+				<img src="/assets/rate_stars.svg" alt="Rating" />
+				<p class="rate">4.81</p>
+			</div>
+			<p class="place">noté par 8 761 utilisateurs</p>
+		</div>
 
 		<div class="buttons">
 			<Button
