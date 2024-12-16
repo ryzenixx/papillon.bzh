@@ -29,6 +29,7 @@
 	.iphone-container {
 		width: 360px;
 		position: relative;
+		overflow: visible;
 	}
 
 	.iphone-container img {
@@ -38,6 +39,7 @@
 		left: 0;
 		z-index: 1;
 		pointer-events: none;
+		overflow: visible;
 	}
 
 	.player {
@@ -48,6 +50,7 @@
 		width: 347px;
 		border-radius: 30px;
 		overflow: hidden;
+		overflow: visible;
 	}
 
 	@media (max-width: 900px) {
