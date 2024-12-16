@@ -6,6 +6,7 @@
 	import TrySection from '../components/sections/TrySection.svelte';
 	import Footer from '../components/Footer.svelte';
 	import SecureSection from '../components/sections/SecureSection.svelte';
+	import Button from '../components/Button.svelte';
 </script>
 
 <svelte:head>
@@ -21,7 +22,6 @@
 <FeaturesSection />
 <IconsSection />
 <SecureSection />
-<TrailerSection />
 <TrySection />
 
 <Footer />

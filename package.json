@@ -21,13 +21,14 @@
 		"globals": "^15.0.0",
 		"prettier": "^3.1.1",
 		"prettier-plugin-svelte": "^3.1.2",
-		"svelte": "^4.2.7",
-		"vite": "^5.0.3"
+		"svelte": "^5.14.0",
+		"vite": "^5.4.11"
 	},
 	"type": "module",
 	"dependencies": {
 		"@sveltejs/adapter-static": "^3.0.4",
 		"lucide-svelte": "^0.436.0",
-		"plyr": "^3.7.8"
+		"plyr": "^3.7.8",
+		"svelte-ripple-action": "^2.0.0"
 	}
 }

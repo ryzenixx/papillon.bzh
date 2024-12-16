@@ -1,54 +1,70 @@
+.download-page {
+	background-color: rgba(var(--color-primary-rgb), 0.05);
+	border-bottom: 1px solid rgba(var(--color-text-primary-rgb), 0.14);
+}
+
 .download-options {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
 }
 
 .download-option {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  align-items: center;
-  justify-content: flex-start;
-  border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+	justify-content: flex-start;
+	border-radius: 12px;
 
-  border: 1px solid rgba(var(--color-text-primary-rgb), 0.2);
-  background-color: var(--color-card);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+	border: 1px solid rgba(var(--color-text-primary-rgb), 0.14);
+	background-color: var(--color-card);
+	box-shadow:
+		0 1px 1px 0 rgba(0, 0, 0, 0.1),
+		0 1px 8px 0 rgba(0, 0, 0, 0.1);
 
-  padding: 16px;
-  text-decoration: none;
-  gap: 16px;
+	padding: 22px 16px;
+	text-decoration: none;
+	gap: 16px;
 
-  transition: box-shadow 0.2s, border 0.2s;
+	transition:
+		box-shadow 0.2s,
+		border 0.2s;
+}
+
+.download-option img {
+	width: 64px;
+	height: 64px;
 }
 
 .download-option:hover {
-  border: 1px solid rgba(var(--color-text-primary-rgb), 0.4);
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+	box-shadow:
+		0 4px 5px 0 rgba(0, 0, 0, 0.14),
+		0 1px 10px 0 rgba(0, 0, 0, 0.12),
+		0 2px 4px -1px rgba(0, 0, 0, 0.2);
 }
 
 .download-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 9px;
-  text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 9px;
+	text-align: center;
 }
 
 .download-content h3 {
-  font-size: 1.25rem;
-  color: var(--color-text-primary);
+	font-size: 1.25rem;
+	color: var(--color-text-primary);
 }
 
 .download-content p {
-  font-size: 1rem;
-  color: rgba(var(--color-text-primary-rgb), 0.6);
+	font-size: 1rem;
+	color: rgba(var(--color-text-primary-rgb), 0.6);
 }
 
 @media (max-width: 768px) {
-  .download-options {
-    flex-direction: column;
-  }
+	.download-options {
+		flex-direction: column;
+	}
 }
