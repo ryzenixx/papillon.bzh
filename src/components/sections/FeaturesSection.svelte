@@ -1,5 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
+	import { ripple } from 'svelte-ripple-action';
 
 	import '../../styles/sections/features.css';
 	import SectionTitle from '../SectionTitle.svelte';
@@ -76,6 +77,9 @@
 	<div class="feature-grid">
 		{#each tiles as tile}
 			<div
+				use:ripple={{
+					color: 'rgba(var(--color-text-primary-rgb), 0.1)'
+				}}
 				class="tile {tile.large ? 'tile-large' : ''} tile-{tile.name}"
 				style="background-color: {tile.color}22;"
 			>
