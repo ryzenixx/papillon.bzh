@@ -5,7 +5,7 @@
 
 .feature-grid {
 	display: inline-grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr;
 	gap: var(--tile-gap);
 }
@@ -71,7 +71,14 @@
 	transform: translateY(-4px);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
+	.feature-grid {
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+	}
+}
+
+@media (max-width: 950px) {
 	.feature-grid {
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 1fr 1fr 1fr;

@@ -36,7 +36,7 @@
 			name: 'compatible',
 			image: 'tile_compatible',
 			large: false,
-			color: '#00FF92'
+			color: '#950064'
 		},
 		{
 			title: 'Conçu pour vous',
@@ -45,6 +45,22 @@
 			image: 'tile_made',
 			large: false,
 			color: '#9E00FF'
+		},
+		{
+			title: 'Intelligent',
+			description: "Papillon vous affiche l'information au bon moment.",
+			name: 'compatible',
+			image: 'tile_smart',
+			large: false,
+			color: '#84B900'
+		},
+		{
+			title: 'Sécurisé',
+			description: 'Vos identifiants ne quittent jamais votre appareil.',
+			name: 'made',
+			image: 'tile_secure',
+			large: false,
+			color: '#29947A'
 		}
 	];
 
