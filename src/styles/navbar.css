@@ -24,7 +24,6 @@ nav .width {
 .logo {
 	display: flex;
 	align-items: center;
-	height: 22px;
 	margin-top: 1px;
 	-webkit-tap-highlight-color: transparent;
 }
@@ -34,7 +33,7 @@ nav .width {
 }
 
 .logo-image {
-	height: 22px;
+	height: 24px;
 }
 
 nav ul {
