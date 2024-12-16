@@ -7,6 +7,7 @@
 	import Footer from '../components/Footer.svelte';
 	import SecureSection from '../components/sections/SecureSection.svelte';
 	import Button from '../components/Button.svelte';
+	import CompatibilitySection from '../components/sections/CompatibilitySection.svelte';
 </script>
 
 <svelte:head>
@@ -19,6 +20,7 @@
 </svelte:head>
 
 <Hero />
+<CompatibilitySection />
 <FeaturesSection />
 <IconsSection />
 <SecureSection />

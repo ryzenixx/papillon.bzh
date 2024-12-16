@@ -1,5 +1,4 @@
 .section-features {
-	border-top: 1px solid rgba(var(--color-text-rgb), 0.1);
 	--tile-height: 280px;
 	--tile-gap: 16px;
 }
