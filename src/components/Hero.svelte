@@ -1,5 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
+	import { ripple } from 'svelte-ripple-action';
 
 	import { ArrowDown, Download } from 'lucide-svelte';
 	import '../styles/hero.css';
@@ -78,7 +79,11 @@
 	<HeroTriangles />
 
 	<div class="content">
-		<a class="britanny-chip" href="/kenavo">
+		<a
+			use:ripple={{ color: 'rgba(var(--color-text-primary-rgb), 0.2)' }}
+			class="britanny-chip"
+			href="/kenavo"
+		>
 			<img src="/assets/britanny_flag.svg" alt="Britanny flag" />
 
 			<p>Un logiciel libre imaginé en Bretagne</p>
