@@ -48,7 +48,7 @@
 		left: 6px;
 		aspect-ratio: 9 / 18;
 		width: 347px;
-		border-radius: 30px;
+		border-radius: 40px;
 		overflow: hidden;
 		overflow: hidden;
 	}
