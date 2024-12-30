@@ -1,65 +1,66 @@
 .section-icons {
-  background-color: #9e0d9e12;
+	background-color: #9e0d9e12;
+	padding: 70px 0px;
 }
 
 .icon-elements {
-  display: grid;
-  width: 100%;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 32px;
+	display: grid;
+	width: 100%;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 32px;
 }
 
 .icon-element {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 16px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 16px;
 }
 
 .icon-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  min-width: 36px;
-  border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 36px;
+	height: 36px;
+	min-width: 36px;
+	border-radius: 50px;
 }
 
 .icon-content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 8px;
 }
 
 .icon-content h3 {
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: var(--color-text-primary);
+	font-size: 1.2rem;
+	font-weight: 700;
+	color: var(--color-text-primary);
 }
 
 .icon-content p {
-  font-size: 1rem;
-  font-weight: 500;
-  color: var(--color-text-primary);
-  opacity: 0.75;
+	font-size: 1rem;
+	font-weight: 500;
+	color: var(--color-text-primary);
+	opacity: 0.75;
 }
 
 @media screen and (max-width: 868px) {
-  .icon-elements {
-    grid-template-columns: repeat(2, 1fr);
-  }
+	.icon-elements {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
 
 @media screen and (max-width: 576px) {
-  .section-icons {
-    padding: 50px 20px;
-  }
+	.section-icons {
+		padding: 50px 20px;
+	}
 
-  .icon-elements {
-    grid-template-columns: repeat(1, 1fr);
-  }
+	.icon-elements {
+		grid-template-columns: repeat(1, 1fr);
+	}
 }

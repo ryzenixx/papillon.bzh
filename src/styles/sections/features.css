@@ -1,6 +1,7 @@
 .section-features {
 	--tile-height: 280px;
 	--tile-gap: 16px;
+	margin-top: 70px;
 }
 
 .feature-grid {
