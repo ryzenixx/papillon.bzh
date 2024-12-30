@@ -34,7 +34,7 @@
 		direction="left"
 		src="/assets/demo/timetable_scroll.webm"
 		subtitle="Intuitif"
-		title="Votre emploi du temps, disponible instananément"
+		title="Votre emploi du temps, disponible instantanément"
 		description="Pas besoin d'attendre de se reconnecter. Ouvrez Papillon et bénéficiez de vos cours en un clin d'oeil."
 		checks={['Démarrage ultra-rapide', 'Emploi du temps hors-connexion', 'Cours en détail']}
 	/>
