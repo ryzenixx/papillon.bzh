@@ -9,16 +9,16 @@
 	import { Menu, X, Download } from 'lucide-svelte';
 
 	const links = [
-		{ name: 'Découvrir Papillon', href: '/' },
-		{ name: 'Soutenir le projet', href: '/donate', donate: true }
+		{ name: 'Découvrir', href: '/' },
+		{ name: 'Faire un don', href: '/donate', donate: true }
 	];
 
 	let mobileMenuOpen = false;
 </script>
 
 <div class="support">
-	<div class="support-over">
-		<a class="width literate-link" href="https://literate.ink" target="_blank">
+	<div class="support-over width">
+		<a class="literate-link" href="https://literate.ink" target="_blank">
 			<p>Un projet soutenu par</p>
 
 			<img src="/assets/literate_logo_full.svg" alt="Papillon" class="literate-image light-mode" />
@@ -40,11 +40,7 @@
 
 		<ul class="desktop-only">
 			{#each links as { name, href, donate }}
-				<li
-					use:ripple={{
-						color: donate ? 'rgba(214, 160, 11, 0.2)' : 'rgba(var(--color-primary-rgb), 0.2)'
-					}}
-				>
+				<li>
 					<a
 						class={(href === $page.url.pathname ? 'active' : '') + (donate ? ' donate' : '')}
 						{href}

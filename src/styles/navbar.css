@@ -2,7 +2,6 @@ nav {
 	height: 60px;
 
 	background-color: var(--color-card);
-	border-bottom: 1px solid rgba(var(--color-text-rgb), 0.1);
 
 	position: sticky;
 	top: 0;
@@ -33,7 +32,8 @@ nav .width {
 }
 
 .logo-image {
-	height: 24px;
+	height: 22px;
+	margin-top: 2px;
 }
 
 nav ul {
@@ -51,7 +51,7 @@ nav ul li {
 
 nav ul li a {
 	text-decoration: none;
-	color: rgba(var(--color-text-rgb), 0.5);
+	color: rgba(var(--color-text-rgb), 0.4);
 	font-weight: 500;
 	display: flex;
 	height: 100%;
@@ -59,33 +59,15 @@ nav ul li a {
 	padding-top: 4px;
 	padding-left: 16px;
 	padding-right: 16px;
-	border-bottom: 2px solid rgba(0, 0, 0, 0);
 	overflow: visible;
 }
 
 nav ul li a:hover {
 	color: var(--color-text);
-	border-bottom-color: var(--color-text);
 }
 
 nav ul li a.active {
-	color: var(--color-primary);
-	border-bottom-color: var(--color-primary);
-}
-
-nav ul li a.donate {
-	--donate-color: rgb(214, 160, 11);
-	color: var(--donate-color);
-}
-
-nav ul li a.donate:hover {
-	color: var(--donate-color);
-	border-bottom-color: var(--donate-color);
-}
-
-nav ul li a.donate.active {
-	color: var(--donate-color);
-	border-bottom-color: var(--donate-color);
+	color: rgba(var(--color-text-rgb), 1);
 }
 
 nav ul li:last-child {
@@ -189,8 +171,6 @@ nav ul li:last-child {
 }
 
 .support-over {
-	background-color: rgba(var(--color-text-rgb), 0.05);
-	height: 34px;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -226,4 +206,25 @@ nav ul li:last-child {
 
 .literate-link {
 	text-decoration: none !important;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	border: 1px solid rgba(var(--color-text-rgb), 0.14);
+	border-top: none;
+
+	height: 34px;
+	padding: 0px 16px;
+
+	margin-left: -16px;
+
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+	.literate-link {
+		margin-left: 0px;
+	}
 }

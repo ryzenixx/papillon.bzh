@@ -4,7 +4,6 @@
 
 	import { ArrowDown, Download } from 'lucide-svelte';
 	import '../styles/hero.css';
-	import HeroTriangles from './atoms/Hero/HeroTriangles.svelte';
 	import Button from './Button.svelte';
 
 	const headlineAnimOptions = {
@@ -56,33 +55,10 @@
 			...headlineAnimOptions,
 			delay: 200
 		});
-
-		ScrollReveal().reveal('.screenshot-main', {
-			...headlineAnimOptions,
-			delay: 200,
-			scale: 0.9,
-			distance: '100px'
-		});
-
-		ScrollReveal().reveal('.screenshot-grades', {
-			...headlineAnimOptions,
-			delay: 300,
-			scale: 0.9,
-			distance: '100px'
-		});
-
-		ScrollReveal().reveal('.screenshot-edts', {
-			...headlineAnimOptions,
-			delay: 400,
-			scale: 0.9,
-			distance: '100px'
-		});
 	});
 </script>
 
-<div class="hero">
-	<HeroTriangles />
-
+<div class="hero width">
 	<div class="content">
 		<a
 			use:ripple={{ color: 'rgba(var(--color-text-primary-rgb), 0.2)' }}
@@ -135,23 +111,11 @@
 		</p>
 	</div>
 
-	<div class="screenshots">
-		<img
-			src="/assets/hero_screenshot_grades.png"
-			alt="Screenshot des notes"
-			class="screenshot screenshot-grades"
-		/>
+	<div class="hero-demo">
+		<img src="/assets/hero_screenshot_main.png" alt="" class="screenshot-main" />
 
-		<img
-			src="/assets/hero_screenshot_main.png"
-			alt="Screenshot de l'application"
-			class="screenshot screenshot-main"
-		/>
-
-		<img
-			src="/assets/hero_screenshot_edt.png"
-			alt="Screenshot des cours"
-			class="screenshot screenshot-edts"
-		/>
+		<img src="/assets/hero_over_grade.svg" alt="" class="hero-over hero-over-grade" />
+		<img src="/assets/hero_over_homework.svg" alt="" class="hero-over hero-over-homework" />
+		<img src="/assets/hero_over_lesson.svg" alt="" class="hero-over hero-over-lesson" />
 	</div>
 </div>
