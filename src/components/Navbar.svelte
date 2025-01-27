@@ -10,6 +10,7 @@
 
 	const links = [
 		{ name: 'Découvrir', href: '/' },
+		{ name: "Besoin d'aide ?", href: 'https://support.papillon.bzh' },
 		{ name: 'Faire un don', href: '/donate', donate: true }
 	];
 
