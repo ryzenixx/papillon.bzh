@@ -79,9 +79,9 @@
 		<div class="rating">
 			<div class="main-rating">
 				<img src="/assets/rate_stars.svg" alt="Rating" />
-				<p class="rate">4.81</p>
+				<p class="rate">4.73</p>
 			</div>
-			<p class="place">noté par 8 761 utilisateurs</p>
+			<p class="place">noté par 22 443 utilisateurs</p>
 		</div>
 
 		<div class="buttons">
