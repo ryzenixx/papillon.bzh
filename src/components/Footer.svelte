@@ -54,7 +54,7 @@
 
 		<div class="footer-right">
 			<p class="copyright">
-				2024 Papillon et les contributeurs associés. Ce site web est open-source.
+				{new Date().getFullYear()} Papillon et les contributeurs associés. Ce site web est open-source.
 			</p>
 		</div>
 	</div>
