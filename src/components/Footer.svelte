@@ -6,7 +6,6 @@
 			title: 'Ressources',
 			links: [
 				{ name: 'Documentation', href: 'https://docs.papillon.bzh' },
-				{ name: 'Blog', href: 'https://blog.papillon.bzh' },
 				{
 					name: 'Confidentialité',
 					href: 'https://docs.papillon.bzh/legal/privacy'
