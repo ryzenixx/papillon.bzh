@@ -18,6 +18,11 @@
 </script>
 
 <div class="support">
+	<div class="warning">
+		<a href="/blog/communique-10-06-2025"
+			>Lire le communiqué de Papillon concernant la sécurité des données</a
+		>
+	</div>
 	<div class="support-over width">
 		<a class="literate-link" href="https://literate.ink" target="_blank">
 			<p>Un projet soutenu par</p>
@@ -93,3 +98,29 @@
 </div>
 
 <!--<div class="nav-mock" />-->
+
+<style>
+	.warning {
+		background-color: #ffcc00;
+		color: #333;
+		padding: 8px;
+		text-align: center;
+		font-weight: bold;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 1000;
+	}
+
+	.warning a {
+		color: #333;
+		text-decoration: none;
+		font-size: 1rem;
+		font-weight: 500;
+	}
+
+	.warning a:hover {
+		text-decoration: underline;
+	}
+</style>
