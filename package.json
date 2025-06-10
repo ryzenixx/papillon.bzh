@@ -28,6 +28,7 @@
 	"dependencies": {
 		"@sveltejs/adapter-static": "^3.0.4",
 		"lucide-svelte": "^0.436.0",
+		"marked": "^15.0.12",
 		"plyr": "^3.7.8",
 		"svelte-ripple-action": "^2.0.0"
 	}
