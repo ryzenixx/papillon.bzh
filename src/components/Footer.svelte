@@ -6,7 +6,6 @@
 			title: 'Ressources',
 			links: [
 				{ name: 'Documentation', href: 'https://docs.papillon.bzh' },
-				{ name: 'Blog', href: 'https://blog.papillon.bzh' },
 				{
 					name: 'Confidentialité',
 					href: 'https://docs.papillon.bzh/legal/privacy'
@@ -54,7 +53,7 @@
 
 		<div class="footer-right">
 			<p class="copyright">
-				2024 Papillon et les contributeurs associés. Ce site web est open-source.
+				{new Date().getFullYear()} Papillon et les contributeurs associés. Ce site web est open-source.
 			</p>
 		</div>
 	</div>
