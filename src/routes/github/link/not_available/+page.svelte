@@ -6,7 +6,7 @@
 <main>
 	<img src="/assets/checkmark_fail.png" alt="Checkmark with an x" />
 	<h1>Il semblerait que tu n'aies pas encore contribué...</h1>
-	<p>Fait une contribution sur un des repo de Papillon, puis revient faire ta demande. 👀</p>
+	<p>Fait une contribution sur le repo de Papillon, puis revient faire ta demande. 👀</p>
 	<Button value="Faire une contribution" icon={GitFork} variant="light" href="https://github.com/PapillonApp/Papillon/fork" />
 </main>
 
