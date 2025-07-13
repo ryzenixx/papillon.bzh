@@ -14,7 +14,7 @@
 		width={256}
 	/>
 	<h1>Ton compte GitHub était déjà lié.</h1>
-	<p>Tu avais déjà le rôle contributeur. Retourne sur Discord pour observer ton exploit. ✌️</p>
+	<p>Tu avais déjà le rôle contributeur. Rien ne change pour toi ! ✌️</p>
 </main>
 
 <style>
